@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -12,17 +13,37 @@
     <header>
       <nav>
         <!-- Company Logo -->
-        <a href="./index.html"> WEBSTUDIO</a>
+        <a href="./index.html" class="index"> WEBSTUDIO</a>
         <!-- Navigation Menu -->
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="/Portfolio">Portfolio</a></li>
-          <li><a href="/Contacts">Contacts</a></li>
+        <ul class="nav-links">
+          <li>
+            <a
+              href="./index.html"
+              class="studio"
+              target="_blank"
+              rel="nopener norefer"
+              >Studio</a
+            >
+          </li>
+          <li>
+            <a
+              href="./portfolio.html"
+              class="portfolio"
+              target="_blank"
+              rel="nopener norefer"
+              >Portfolio</a
+            >
+          </li>
+          <li><a href="/Contacts" class="contacts">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+110001111111</a></li>
+      <ul class="howtoreach">
+        <li>
+          <a href="mailto:info@devstudio.com" class="mailto"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+110001111111" class="tel">+110001111111</a></li>
       </ul>
     </header>
 
@@ -30,12 +51,14 @@
     <main>
       <!-- Section 1 -->
       <section>
-        <div>
-          <h1>
-            Effective Solutions <br />
-            for Your Business
-          </h1>
-          <button type="button">Order Service</button>
+        <div class="container">
+          <div class="box">
+            <h1 class="h1">
+              Effective Solutions <br />
+              for Your Business
+            </h1>
+            <button type="button" class="h1-button">Order Service</button>
+          </div>
         </div>
       </section>
 
@@ -43,34 +66,34 @@
       <section>
         <!-- Company Goals -->
         <div>
-          <ul>
+          <ul class="companygoals">
             <li>
-              <h3>Strategy</h3>
-              <p>
+              <h3 class="h3"><b>Strategy</b></h3>
+              <p class="strategy">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
 
             <li>
-              <h3>Punctuality</h3>
-              <p>
+              <h3 class="h3"><b>Punctuality</b></h3>
+              <p class="punctuality">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
 
             <li>
-              <h3>Diligence</h3>
-              <p>
+              <h3 class="h3"><b>Diligence</b></h3>
+              <p class="diligence">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
 
             <li>
-              <h3>Punctuality</h3>
-              <p>
+              <h3 class="h3"><b>Technologies</b></h3>
+              <p class="technologies">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -83,8 +106,8 @@
       <section>
         <div>
           <!-- Business Offers -->
-          <h2>What Are We Doing</h2>
-          <ul>
+          <h2 class="h2">What Are We Doing</h2>
+          <ul class="offers">
             <li>
               <img
                 src="./images/monitor.jpg"

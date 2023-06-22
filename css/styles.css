@@ -31,18 +31,23 @@
 }
 .studio {
   color: #4d5ae5;
+  text-decoration: none;
 }
 .portfolio {
   color: #2e2f42;
+  text-decoration: none;
 }
 .contacts {
   color: #2e2f42;
+  text-decoration: none;
 }
 .mailto {
   color: #434455;
+  text-decoration: none;
 }
 .tel {
   color: #434455;
+  text-decoration: none;
 }
 
 .nav-links {

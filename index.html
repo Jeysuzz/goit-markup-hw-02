@@ -6,69 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    />
   </head>
 
   <body>
     <!-- Header Section -->
-    <header>
+    <header class="page-header">
       <nav>
         <!-- Company Logo -->
-        <a href="./index.html" class="index"> WEBSTUDIO</a>
+        <a href="./index.html" class="logo"> WEBSTUDIO</a>
         <!-- Navigation Menu -->
-        <ul class="nav-links">
+        <ul class="nav-menu list">
           <li>
-            <a
-              href="./index.html"
-              class="studio"
-              target="_blank"
-              rel="nopener norefer"
+            <a href="./index.html" class="page-current" rel="nopener norefer"
               >Studio</a
             >
           </li>
           <li>
             <a
               href="./portfolio.html"
-              class="portfolio"
+              class="page"
               target="_blank"
               rel="nopener norefer"
               >Portfolio</a
             >
           </li>
-          <li><a href="/Contacts" class="contacts">Contacts</a></li>
+          <li><a href="/Contacts" class="page">Contacts</a></li>
         </ul>
       </nav>
-      <ul class="howtoreach">
+      <ul class="contacts-menu list">
         <li>
-          <a href="mailto:info@devstudio.com" class="mailto"
+          <a href="mailto:info@devstudio.com" class="item"
             >info@devstudio.com</a
           >
         </li>
-        <li><a href="tel:+110001111111" class="tel">+110001111111</a></li>
+        <li><a href="tel:+110001111111" class="item">+110001111111</a></li>
       </ul>
     </header>
 
     <!-- Main Content -->
     <main>
       <!-- Section 1 -->
-      <section>
-        <div class="container">
-          <div class="box">
-            <h1 class="h1">
+      <section class="hero bg-hero">
+            <h1 class="hero-title">
               Effective Solutions <br />
               for Your Business
             </h1>
-            <button type="button" class="h1-button">Order Service</button>
+            <button type="button" class="button primary">Order Service</button>
           </div>
         </div>
       </section>
 
       <!-- Section 2 -->
-      <section>
+      <section class="section">
         <!-- Company Goals -->
-        <div>
-          <ul class="companygoals">
+        <div class="container">
+          <ul class="benefits">
             <li>
-              <h3 class="h3"><b>Strategy</b></h3>
+              <h3 class="title"><b>Strategy</b></h3>
               <p class="strategy">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -76,7 +75,7 @@
             </li>
 
             <li>
-              <h3 class="h3"><b>Punctuality</b></h3>
+              <h3 class="title"><b>Punctuality</b></h3>
               <p class="punctuality">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -84,7 +83,7 @@
             </li>
 
             <li>
-              <h3 class="h3"><b>Diligence</b></h3>
+              <h3 class="title"><b>Diligence</b></h3>
               <p class="diligence">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -92,7 +91,7 @@
             </li>
 
             <li>
-              <h3 class="h3"><b>Technologies</b></h3>
+              <h3 class="title"><b>Technologies</b></h3>
               <p class="technologies">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -103,11 +102,11 @@
       </section>
 
       <!-- Section 3 -->
-      <section>
-        <div>
+      <section class="section"></section>
+        <div class="container">
           <!-- Business Offers -->
           <h2 class="h2">What Are We Doing</h2>
-          <ul class="offers">
+          <ul class="what-we-do list">
             <li>
               <img
                 src="./images/monitor.jpg"
@@ -137,10 +136,10 @@
       </section>
 
       <!-- Section 4 -->
-      <section>
-        <div>
-          <h2 class="team">Our Team</h2>
-          <ul class="teammembers">
+      <section class="section bg-team">
+        <div class="container">
+          <h2 class="section-title">Our Team</h2>
+          <ul class="team list">
             <li>
               <img
                 src="./images/markguerrero.jpg"
@@ -148,8 +147,8 @@
                 width="264"
                 height="260"
               />
-              <h3>Mark Guerrero</h3>
-              <p>Product Designer</p>
+              <h3 class="name">Mark Guerrero</h3>
+              <p class="position">Product Designer</p>
             </li>
 
             <li>
@@ -159,8 +158,8 @@
                 width="264"
                 height="260"
               />
-              <h3>Tom Ford</h3>
-              <p>Frontend Developer</p>
+              <h3 class="name">Tom Ford</h3>
+              <p class="position">Frontend Developer</p>
             </li>
 
             <li>
@@ -170,8 +169,8 @@
                 width="264"
                 height="260"
               />
-              <h3>Camila Garcia</h3>
-              <p>Marketing</p>
+              <h3 class="name">Camila Garcia</h3>
+              <p class="position">Marketing</p>
             </li>
 
             <li>
@@ -181,17 +180,17 @@
                 width="264"
                 height="260"
               />
-              <h3>Daniel Wilson</h3>
-              <p>UI Designer</p>
+              <h3 class="name">Daniel Wilson</h3>
+              <p class="position">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="footer">
-        <a href="./index.html" class="webstudiof"> WEBSTUDIO</a>
+    <footer class="page-footer bg-footer">
+      <div>
+        <a href="./index.html" class="logo"> WEBSTUDIO</a>
         <p class="p">
           <span>Increase the flow of customers and </span>
           <span>sales for your business with digital</span>

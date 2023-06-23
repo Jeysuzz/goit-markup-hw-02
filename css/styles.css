@@ -53,7 +53,7 @@
 .nav-links {
   list-style-type: none;
 }
-.howtoreach {
+.how-to-reach {
   list-style-type: none;
 }
 
@@ -89,7 +89,7 @@
   color: #ffffff;
 }
 
-.companygoals {
+.company-goals {
   list-style-type: none;
 }
 .h3 {
@@ -206,7 +206,7 @@
   letter-spacing: 0.72px;
 }
 
-.teammembers {
+.team-members {
   display: flex;
   list-style: none;
   text-align: center;
@@ -219,7 +219,7 @@
   background: #2e2f42;
 }
 
-.webstudiof {
+.webstudio-f {
   width: 44px;
   height: 21px;
 

@@ -2,35 +2,183 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <div class="header">
+  <!-- Header Section -->
+    <header class="page-header">
       <nav>
         <!-- Company Logo -->
-        <a href="./index.html"> WEBSTUDIO</a>
+        <a href="./index.html" class="logo"> WebStudio</a>
         <!-- Navigation Menu -->
-        <ul>
+        <ul class="nav-menu list">
           <li>
-            <a href="./index.html" target="_blank" rel="nopener norefer"
+            <a href="./index.html" class="page-current" rel="nopener norefer"
               >Studio</a
             >
           </li>
           <li>
-            <a href="./portfolio.html" target="_blank" rel="nopener norefer"
+            <a
+              href="./portfolio.html"
+              class="page"
+              target="_blank"
+              rel="nopener norefer"
               >Portfolio</a
             >
           </li>
-          <li><a href="/Contacts">Contacts</a></li>
+          <li><a href="/Contacts" class="page">Contacts</a></li>
         </ul>
       </nav>
-    </div>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+110001111111</a></li>
+      <ul class="contacts-menu list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="item"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+110001111111" class="item">+110001111111</a></li>
       </ul>
-    </div>
+    </header>
+  </body>
+    
+    <ul>
+        <li>
+          <button type="button" class="menu">All</button>
+        </li>
+        <li>
+          <button type="button" class="menu">Web Site</button>
+        </li>
+        <li>
+          <button type="button" class="menu">App</button>
+        </li>
+        <li>
+          <button type="button" class="menu">Design</button>
+        </li>
+        <li>
+          <button type="button" class="menu">Marketing</button>
+        </li>
+      </ul>
+          <ul class="team list">
+            <li>
+              <img
+                src="./images/portfolio/banking-app.jpg"
+                alt="banking-app"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Banking App Interface Concept</h3>
+              <p class="position">App</p>
+            </li>
+
+            <li>
+              <img
+                src="./images/portfolio/cashless-payment.jpg"
+                alt="cashless-payment"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Cashless Payment</h3>
+              <p class="position">Marketing</p>
+            </li>
+
+            <li>
+              <img
+                src="./images/portfolio/meditation.jpg"
+                alt="meditation"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Meditation App</h3>
+              <p class="position">App</p>
+            </li>
+
+            <li>
+              <img
+                src="./images/portfolio/taxi-service.jpg"
+                alt="taxi-service"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Taxi Service</h3>
+              <p class="position">Marketing</p>
+            </li>
+          
+             <li>
+              <img
+                src="./images/portfolio/illustrations.jpg"
+                alt="screen-illustrations"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Screen Illustrations</h3>
+              <p class="position">Design</p>
+            </li>
+
+             <li>
+              <img
+                src="./images/portfolio/online-courses.jpg"
+                alt="online-courses"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Online Courses</h3>
+              <p class="position">Marketing</p>
+            </li>
+
+             <li>
+              <img
+                src="./images/portfolio/instagram-stories.jpg"
+                alt="instagram-stories"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Instagram Stories</h3>
+              <p class="position">Design</p>
+            </li>
+
+             <li>
+              <img
+                src="./images/portfolio/organic-food.jpg"
+                alt="organic-food"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Organic Food</h3>
+              <p class="position">Web Site</p>
+            </li>
+
+             <li>
+              <img
+                src="./images/portfolio/fresh-coffee.jpg"
+                alt="fresh-coffee"
+                width="264"
+                height="260"
+              />
+              <h3 class="name">Fresh Coffee</h3>
+              <p class="position">Website</p>
+            </li>
+          
+          </ul>
+        </div>
+      </section>
+
+
+    <footer class="page-footer bg-footer">
+      <div>
+        <a href="./index.html" class="logo"> WEBSTUDIO</a>
+        <p class="p">
+          Increase the flow of customers and <br />
+          sales for your business with digital<br />
+          marketing & growth solutions.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

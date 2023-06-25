@@ -15,6 +15,9 @@
   color: #4d5ae5;
 }
 
+.section {
+  background: #fff;
+}
 ul.nav-menu.list,
 ul.contacts-menu {
   list-style: none;
@@ -249,11 +252,13 @@ ul.team {
 }
 
 .projects {
-  list-style: none;
+  list-style-type: none;
   text-decoration: none;
+  text-align: center;
 }
 
-.name {
+.service,
+.project {
   color: #2e2f42;
   /* Header 3 */
   font-size: 20px;
@@ -261,15 +266,14 @@ ul.team {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  text-decoration: none;
 }
 
 .type {
   color: #434455;
-  text-decoration: none;
   font-size: 16px;
   font-family: "Roboto";
   line-height: 24px;
   letter-spacing: 0.32px;
   align-items: center;
-  text-decoration: none;
 }

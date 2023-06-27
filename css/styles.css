@@ -28,8 +28,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  display: flex;
-  width: 44px;
   text-decoration: none;
 }
 
@@ -67,7 +65,7 @@ body {
 .button {
   font-family: inherit;
   border-color: transparent;
-  letter-spacing: 0.83em;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -77,7 +75,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.87;
-  letter-spacing: 0.86em;
+  letter-spacing: 0.06em;
 }
 
 .button.primary:hover,
@@ -100,7 +98,6 @@ body {
 }
 
 .section-title {
-  list-style: none;
   text-align: center;
   /* Header 2 */
   font-size: 36px;
@@ -113,20 +110,20 @@ body {
   background-color: var(--background-black);
 }
 .hero-title {
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
   font-weight: 900;
   text-align: center;
   /* Header 1 */
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 }
 
 .benefits .title {
- color: var(--primary-black-color);
- font-weight: 700;
- font-size: 14px;
- line-height: 1.14;
+  color: var(--primary-black-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .benefits .description {
@@ -154,21 +151,20 @@ body {
 }
 
 .project .name {
-  color: var(--primary-black-color)
-    font-size: 18px;
-  font-family: 'Roboto';
+  color: var(--primary-black-color);
+  font-size: 18px;
+  font-family: "Roboto";
   font-weight: 700;
   line-height: 2;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.06em;
 }
 
-.project.type{
+.project.type {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
-
 
 /* ENDED here for checking*/
 .section {
@@ -216,11 +212,6 @@ body {
   background: #2e2f42;
 }
 
-
-
-
-
-
 .title {
   display: flex;
   width: 264px;
@@ -236,8 +227,6 @@ body {
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
 }
-
-
 
 .what-we-do.list {
   list-style-type: none;
@@ -268,8 +257,6 @@ ul.team {
   list-style-type: none;
   display: flex;
 }
-
-
 
 .position {
   color: var(--slate, #434455);
@@ -340,7 +327,3 @@ ul.team {
   text-decoration: none;
   text-align: center;
 }
-
-
-
-
